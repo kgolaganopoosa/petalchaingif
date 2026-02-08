@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petal Chain Gif</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-weight: 300;
+            letter-spacing: 2px;
+            color: #ffb7c5; /* Petal Pink */
+            border-bottom: 2px solid #ffb7c5;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        .gif-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .gif-card {
+            background: #2a2a2a;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .gif-card:hover {
+            transform: scale(1.02);
+        }
+
+        .gif-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .gif-label {
+            padding: 10px;
+            font-size: 0.9rem;
+            text-align: center;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Petal Chain Gif</h1>
+    </header>
+
+    <div class="gif-container">
+        <div class="gif-card">
+            <img src="Kkof.gif" alt="Kkof Animation">
+            <div class="gif-label">Kkof.gif</div>
+        </div>
+
+        <div class="gif-card">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueXZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6bmZ6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKVUn7iM8FMEU24/giphy.gif" alt="Nature Loop">
+            <div class="gif-label">Petal Loop 01</div>
+        </div>
+        
+        </div>
+
+</body>
+</html>
